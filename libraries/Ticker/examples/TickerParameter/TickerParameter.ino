@@ -43,7 +43,7 @@ void setup() {
   tickerSetHigh.attach_ms(26, setPinHigh);
 
   // every 54 ms, call setPinChar(1)
-  tickerSetChar.attach_ms(26, setPinChar, (char)1);
+  tickerSetChar.attach_ms(54, setPinChar, (char)1);
 }
 
 void loop() {}
